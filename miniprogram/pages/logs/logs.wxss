@@ -1,0 +1,23 @@
+.log-list {
+  display: flex;
+  flex-direction: column;
+  padding: 40rpx;
+}
+.log-item {
+  margin: 10rpx;
+}
+.bos{
+  font-size: 20rpx;
+  float: left;
+  width: 200rpx;
+    height: 200rpx;
+    margin: 10rpx;
+}
+.bos view{
+  width: 150rpx;
+  height: 150rpx;
+}
+.bos image{
+  width: 100%;
+  height: 100%;
+}

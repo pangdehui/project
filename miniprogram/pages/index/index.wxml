@@ -1,0 +1,76 @@
+<!--index.wxml-->
+
+<view class="userinfo">
+    <view class='title'>
+      <view>
+        厦门
+      </view>
+      <view>
+        <input type='text' class='iconfont' placeholder='搜索店内商品' placeholder-class='placeholderstyle'></input>
+      </view>
+      <view>
+        <image class='title_icon' src='../image/gengduo.png'></image>
+      </view>
+    </view>
+    <view class='index_banner'>
+      <swiper indicator-dots="indicatordots" autoplay='autoplay'>
+        <swiper-item  wx:for="{{imgurl}}" wx:key="index"> <image src='{{item}}'></image>  </swiper-item>
+      </swiper>
+    </view>  
+    <view class='index_ll'>
+      <view>
+        <view><image src='../image/tuan.png'></image></view>
+        <view>拼团活动</view>
+      </view>
+      <view>
+        <view><image src='../image/juan.png'></image></view>
+        <view>优惠劵</view>
+      </view>
+      <view>
+        <view><image src='../image/xiang.png'></image></view>
+        <view>新人专享</view>
+      </view>
+      <view>
+        <view><image src='../image/man.png'></image></view>
+        <view>满减就送</view>
+      </view>
+    </view>
+    <view class='buff'></view>
+    <view class='one'>
+      <view class='index_onetitle'> 
+        <view>
+          每日优惠
+        </view>
+        <view>
+            更多》
+        </view>
+      </view>
+      <view class='content'>
+          <view><image src='../image/rexiao.png'></image></view>
+          <view><image src='../image/1uiam.png'></image></view>
+          <view><image src='../image/1uiam.png'></image></view>
+          <view><image src='../image/rexiao.png'></image></view>
+      </view>
+    </view> 
+      <view class='buff'></view>
+    <view class='one'>
+      <view class='index_onetitle'> 
+        <view>
+          今日特价
+        </view>
+        <view>
+            更多》
+        </view>
+      </view>
+      <view class='content'>
+          <view><image src='../image/rexiao.png'></image></view>
+          <view><image src='../image/1uiam.png'></image></view>
+          <view><image src='../image/1uiam.png'></image></view>
+          <view><image src='../image/rexiao.png'></image></view>
+      </view>
+    </view>
+      <view class='buff'></view>
+    
+    <view class='dixian'><view>我是有底线的~</view></view> 
+
+</view>

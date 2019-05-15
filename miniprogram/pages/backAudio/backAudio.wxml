@@ -1,0 +1,5 @@
+<!--pages/backAudio/backAudio.wxml-->
+<view class="play">
+  <image src="{{isPlaing?'http://127.0.0.1:3000/pause.png':'http://127.0.0.1:3000/play.png'}}"
+  bindtap="onMousicTap"/>
+</view>

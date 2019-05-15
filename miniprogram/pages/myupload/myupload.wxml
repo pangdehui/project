@@ -1,0 +1,5 @@
+<!--pages/myupload/myupload.wxml-->
+<text>pages/myupload/myupload.wxml</text>
+<view class="container">
+   <view bindtap='handleUpload'>上传头像</view>
+</view>

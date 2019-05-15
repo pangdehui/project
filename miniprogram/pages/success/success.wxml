@@ -1,0 +1,7 @@
+<!--pages/success/success.wxml-->
+<text>pages/success/success.wxml</text>
+<view>创建三个按钮 播放;暂停;停止</view>
+<button bindtap="play">播放背景音乐</button>
+<button bindtap="pause">暂停播放背景音乐</button>
+<button bindtap="stop">停止播放背景音乐 </button>
+

@@ -1,0 +1,7 @@
+<!--pages/event/event.wxml-->
+<view bindtap="handle3">
+   <view id="sub" bindtap="handle1"
+    data-idx="10"
+   >支持冒泡</view>
+   <view catchtap="handle2">不支持冒泡</view>
+</view>

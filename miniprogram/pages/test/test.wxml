@@ -1,0 +1,12 @@
+<!--pages/test/test.wxml-->
+<!-- <text>{{detailList.lid}}</text> -->
+<view class='title'>
+<text class='title'>{{detailList.title}}</text>
+<text class='subtitle'>{{detailList.subtitle}}</text>
+<view>
+  价格{{detailList.price}}
+</view> 
+</view>
+
+<!-- <image src='{{}}'></image> -->
+<!-- {{detailList.details}} -->

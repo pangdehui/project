@@ -1,0 +1,165 @@
+/**index.wxss**/
+/* @import "../font/iconfont.css" */
+/* .userinfo {
+  position: relative;
+  width: 750rpx;
+  height: 320rpx;
+  color: #000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+ 
+.userinfo-avatar {
+  overflow:hidden;
+  display: block;
+  width: 160rpx;
+  height: 160rpx;
+  margin: 20rpx;
+  margin-top: 50rpx;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+}
+ 
+.userinfo text {
+  font-size: 14px;
+  background-color: #c0c0c0;
+  border-radius:40%;
+
+} */
+.userinfo{
+  width: 100vw;
+  height: 100vh;
+}
+.userinfo .title{
+  display: flex;
+  justify-content: space-around;
+  box-sizing: border-box;
+  line-height: 60rpx;
+  margin-bottom: 15rpx;
+
+}
+.userinfo .title>view:first-child{
+  font-size: 15px;
+  color: #212121;
+}
+input{
+  background: #eee;
+  border-radius: 50rpx;
+  /* color: red; */
+  font-size: 15px;
+  text-align: center;
+  width: 546rpx;
+  height: 60rpx;
+}
+.placeholderstyle{
+  content: "";
+  color: #BFBFBF;
+  text-align: center;
+  font-size: 15px;
+}
+.title_icon{
+  width:32rpx;
+  height: 34rpx;
+}
+@font-face {
+  font-family: 'iconfont';
+  src: url('iconfont.eot');
+  src: url('iconfont.eot?#iefix') format('embedded-opentype'),
+      url('iconfont.woff2') format('woff2'),
+      url('iconfont.woff') format('woff'),
+      url('iconfont.ttf') format('truetype'),
+      url('iconfont.svg#iconfont') format('svg');
+}
+.iconfont{
+    /* font-family:"iconfont" !important; */
+    /* font-size:15px;font-style:normal; */
+    /* -webkit-font-smoothing: antialiased */
+    /* -webkit-text-stroke-width: 0.2px; */
+    /* -moz-osx-font-smoothing: grayscale; */
+    }
+.index_banner{
+  width: 100vw;
+  height: 410rpx;
+}
+.index_banner swiper{
+  height: 100%;
+}
+.index_banner swiper image{
+  width: 100%;
+}
+.index_ll{
+  display: flex;
+  justify-content: space-around;
+  box-sizing: border-box;
+}
+.index_ll view{
+  text-align: center;
+  font-size: 22rpx;
+  font-family: SourceHanSansCN-Regular;
+  color: #A1A1A1;
+  margin: 10rpx 0;
+
+}
+.index_ll>view>view:first-child{
+width: 100rpx;
+height: 100rpx;
+}
+.index_ll image{
+  width: 100%;
+  height: 100%;
+  display: block;
+  margin: 0 auto;
+  }
+  .index_onetitle{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+    
+  }
+  .one{
+    padding: 22rpx;
+  }
+  .content{
+    margin-top: 10rpx;
+    width: 100%;
+    /* display: flex; */
+    /* float: left; */
+    /* justify-content: space-around; */
+    box-sizing: border-box;
+    /* flex:inherit; */
+    /* overflow: hidden; */
+  }
+  .content view{
+    float: left;
+    width:45%;
+    height: 150rpx;
+    box-sizing: border-box;
+    margin: 10rpx;
+  }
+  .content view image{
+    width: 100%;
+    height:100%;
+  }
+  .dixian{
+    width: 100vw;
+    height: 35rpx;
+    position: relative;
+    border-bottom: 1px solid #eee;
+    text-align: center;
+  }
+  .dixian view{
+    font-size: 14px;
+    color: #999;
+    position: absolute;
+    left: 50%;
+    margin-left: -127rpx;
+    top: 5rpx;
+    width: 255rpx;
+    text-align: center;
+    padding: 10rpx;
+    background: #fff;
+
+
+   }

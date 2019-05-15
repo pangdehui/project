@@ -1,0 +1,3 @@
+<!--pages/main/main.wxml-->
+<text>pages/main/main.wxml</text>
+<view>登录次数:{{count}}</view>

@@ -1,0 +1,10 @@
+<!--logs.wxml-->
+<view class="containert">
+ <!-- {{msg}} -->
+ <view class='bos' wx:for="{{lisy}}"  wx:key="{{item.pid}}" data-id="{{item.pid}}"data-item="{{item}}" bindtap='funclick'>
+ {{item.title}}
+ <view>
+  <image src='http://www.codeboy.com/{{item.pic}}'></image>
+ </view>
+ </view>
+</view>

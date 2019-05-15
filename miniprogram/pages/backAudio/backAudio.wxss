@@ -1,0 +1,5 @@
+/* pages/backAudio/backAudio.wxss */
+.play image{
+  width:56rpx;
+  height:56rpx;
+}

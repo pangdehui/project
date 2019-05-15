@@ -1,0 +1,7 @@
+/* pages/test/test.wxss */
+.title{
+  font-size: 16rpx;
+}
+.subtitle{
+  font-size: 16rpx;
+}
